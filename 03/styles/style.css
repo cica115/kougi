@@ -1,0 +1,9 @@
+th{
+    width: 100px;
+    background-color: rgb(209, 128, 128);
+    color: white;
+}
+td{
+    width: 100px;
+    background-color: rgb(180, 224, 154);
+}
