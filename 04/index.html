@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>ここまでの講座の感想</h1>
+        <form action="https://script.google.com/macros/s/AKfycbzyGcZiX4JttzCJEafiyEd8XHR9TUNv_JeSRV2iyLYFT_ZwAOg8f2IDMKxP8wOj4BGPbg/exec" method="post">
+            <fieldset>
+              <legend>感想欄</legend>
+              <ul>
+                <li>
+                    <label for="name">ハンドルネーム</label>
+                    <input type="text" id="name" name="user_name" value="ハンドルネーム">
+                </li>
+
+                <li>
+                    <label for="number">ここまでの身に付き具合を1~10の数字で</label>
+                    <input type="number" id="number" name="rate" value="5" min="1" max="10">
+                </li>
+                <li>
+                    <label for="thoughts">感想</label>
+                    <textarea id="thoughts" name="thinking" cols="30" rows="5"></textarea>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+                <legend>アンケート</legend>
+                <fieldset>
+                    <legend>今までの課題の全体的な難易度</legend>
+                    <p>
+                        <input type="radio" name="diff" id="diff_1" value="easy">
+                        <label for="diff_1">簡単だった</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="diff" id="diff_2" value="normal">
+                        <label for="diff_2">普通だった</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="diff" id="diff_3" value="difficult">
+                        <label for="dif_3">難しかった</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>不明点があるときはDiscord上の #講義シリーズ2022-質問 で質問できることを知っている</legend>
+                    <p>知っていた&nbsp;or&nbsp;今知った
+                        <input type="checkbox" name="question">
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>今までの課題で提出が遅れた理由</legend>
+                    <label for="reason">今までの課題で提出が遅れた理由</label>
+                    <select name="reason" id="reason">
+                            <option value="not late">提出が遅れたことはない</option>
+                            <option value="busy">他のことで忙しかった</option>
+                            <option value="lazy">怠けていた</option>
+                    </select>
+                </fieldset>
+            </fieldset>
+            <button type="reset">リセット</button>
+            <button type="submit">データを送信</button>
+        </form>
+    </body>
+</html>
