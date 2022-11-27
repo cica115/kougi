@@ -43,18 +43,34 @@
                     </p>
                 </fieldset>
                 <fieldset>
-                    <legend>不明点があるときはDiscord上の #講義シリーズ2022-質問 で質問できることを知っている</legend>
-                    <p>知っていた&nbsp;or&nbsp;今知った
-                        <input type="checkbox" name="question">
+                    <legend>今までの課題で提出が遅れた理由</legend>
+                    <p>
+                      <input type="checkbox" id="reason1" name="reason" value="not late">
+                      <label for="reason1">提出が遅れたことはない</label>
+                    </p>
+                    <p> 
+                      <input type="checkbox" id="reason2" name="reason" value="busy">
+                      <label for="reason2">他のことで忙しかった</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" id="reason3" name="reason" value="lazy">
+                      <label for="reason3">怠けていた</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" id="reaso4" name="reason" value="forgot task">
+                      <label for="reason4">課題のことを忘れていた</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" id="reason5" name="reason" value="else">
+                      <label for="reason5">その他</label>
                     </p>
                 </fieldset>
                 <fieldset>
-                    <legend>今までの課題で提出が遅れた理由</legend>
-                    <label for="reason">今までの課題で提出が遅れた理由</label>
-                    <select name="reason" id="reason">
-                            <option value="not late">提出が遅れたことはない</option>
-                            <option value="busy">他のことで忙しかった</option>
-                            <option value="lazy">怠けていた</option>
+                    <legend>不明点があるときはDiscord上の #講義シリーズ2022-質問 で質問できることを知っている</legend>
+                    <label for="question"></label>
+                    <select name="question" id="question">
+                        <option value="yes">はい</option>
+                        <option value="no">いいえ</option>
                     </select>
                 </fieldset>
             </fieldset>
