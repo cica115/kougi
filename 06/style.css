@@ -1,0 +1,67 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.pink-circle {
+    color: pink;
+}
+.green-circle {
+    color: green;
+}
+.skyblue-circle{ 
+    color: skyblue;
+}
+.blue-circle {
+    color: #0099FF
+}
+.blue2-circle {
+    color: #0000FF;
+}
+.blue3-circle {
+    color: #333399;
+}
+.pirple-circle {
+    color: #CC00CC;
+}
+.left {
+    background-color: #F0F0FF;
+    width: 15%;
+    height: 1120px;
+    padding-left: 30px;
+}
+.left > p{
+    padding-bottom: 30px;
+}
+
+div {
+    float: left;
+}
+.body {
+    background-image: url(images/abehiroshi.jpg);
+    padding-left: 100px;
+    border-left: 4px double gray;
+    width: 70%;
+    height: 1120px;
+}
+h1 {
+    padding-left: 300px;
+}
+.body-right > div {
+    font-weight: bold;
+    float: none;
+}
+.body-left > div {
+    float: none;
+}
+.body-right > .border{
+    border-bottom: 1px solid black;
+}
+.body-right {
+    padding-left: 30px;
+}
+.mid {
+    padding-left: 70px;
+}
+.body-left-top {
+    padding-bottom: 55px;
+}
